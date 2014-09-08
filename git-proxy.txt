@@ -1,0 +1,7 @@
+#add
+git config --global http.proxy http://10.50.8.21:8080
+git config --global https.proxy http://10.0.0.1:8080
+
+#remove
+git config --global --remove-section http
+git config --global --remove-section https
